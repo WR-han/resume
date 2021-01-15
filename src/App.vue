@@ -91,7 +91,10 @@
                   <template slot="title"> Python </template>
                   <el-timeline>
                     <el-timeline-item timestamp="aaaaa" placement="top">
-                      123123
+                      <div>5555</div>
+                      <div>5555</div>
+                      <div>5555</div>
+                      <div>5555</div>
                     </el-timeline-item>
                     <el-timeline-item timestamp="aaaaa" placement="top">
                       123123
@@ -240,8 +243,18 @@ main {
   padding-bottom: 10px !important;
 }
 
-.el-collapse-item__header{
-  font-weight: 700;
+.el-collapse-item__header {
+  font-weight: 700 !important;
   font-size: 20px !important;
 }
+
+.skills .el-timeline-item__timestamp {
+  font-size: 18px !important;
+  font-weight: initial !important;
+}
+
+.skills .el-timeline-item{
+  font-weight: 300 !important;
+}
+
 </style>
