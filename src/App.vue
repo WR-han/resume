@@ -608,6 +608,7 @@ main {
 
 .el-menu {
   width: 300px;
+  border: 0 !important;
 }
 
 .el-menu-item {
@@ -706,7 +707,20 @@ main {
 }
 
 .el-tooltip__popper.is-dark {
+  position: fixed !important;
   left: 0 !important;
+  top: calc(100vh - 70px) !important;
+  margin-left: 0px !important;
+  width: 64px !important;
+  color: black !important;
+  background-color: white !important;
+  padding: 10px 0 !important;
+  text-align: center;
+  border-radius: 0;
+}
+
+.popper__arrow {
+  display: none !important;
 }
 
 @media screen and (max-width: 420px) {
